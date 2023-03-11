@@ -43,4 +43,11 @@ position: relative;
 .bayan__title:hover {
     background-color: #111;
 }
-.bayan__title::
+.bayan__title::after {
+display: block;
+content: '▼';
+position: absolute;
+right: 12px;
+top: 50%;
+transform: translateY(-50%);
+}
