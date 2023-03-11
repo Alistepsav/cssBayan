@@ -8,3 +8,22 @@ body {
     line-height: 1.2;
     background-color: bisque;
 }
+summary::-webkit-details-marker {
+    display: none;
+}
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.bayan {
+    max-width: 320px;
+    box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.4);
+}
+.bayan__item {
+    background-color: #353535;
+    color: aliceblue;
+    position: relative;
+}
