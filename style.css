@@ -19,7 +19,7 @@ summary::-webkit-details-marker {
     min-height: 100vh;
 }
 .bayan {
-    max-width: 320px;
+    max-width: 780px;
     box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.4);
     border-radius: 10px;
     overflow: hidden;
@@ -50,4 +50,11 @@ position: absolute;
 right: 12px;
 top: 50%;
 transform: translateY(-50%);
+transition: 0.3s all;
+}
+.bayan__item[open] .bayan__title::after{
+    transform: translateY(-50%) rotate(180deg);
+}
+.bayan__body{
+    padding: 20px;
 }
